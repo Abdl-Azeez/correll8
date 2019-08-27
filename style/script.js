@@ -1,3 +1,14 @@
+const hamburger = document.querySelector('.menu');
+const navLink = document.querySelector('nav');
+const Links = document.querySelectorAll('ul li');
+
+hamburger.addEventListener('click', () => {
+    navLink.classList.toggle('active');
+    Links.forEach(link => {
+        link.classList.toggle('fade');
+    });
+});
+
 //change class on scroll
 addEventListener("load", function () {
   $(window).scroll(function () {

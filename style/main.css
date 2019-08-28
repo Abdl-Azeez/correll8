@@ -77,10 +77,10 @@ nav .navbar-toggler:focus {
   text-align: center;
 	height: 100%;
 	margin-left: auto;
-	margin-right: 10%;
+	margin-right: 0;
 	transition: all 1s ease-in;
 	/* font-size: 14px; */
-  transition: 0.4 all ease;
+  transition: 0.4s all ease;
 }
 
 
@@ -634,7 +634,6 @@ input[type="submit"] {
 
 .contact-info ul li label {
   color: #212121;
-  width: 43px;
   height: 43px;
   vertical-align: middle;
   text-align: center;

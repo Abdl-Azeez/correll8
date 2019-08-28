@@ -79,7 +79,6 @@ nav .navbar-toggler:focus {
 	margin-left: auto;
 	margin-right: 0;
 	transition: all 1s ease-in;
-	/* font-size: 14px; */
   transition: 0.4s all ease;
 }
 

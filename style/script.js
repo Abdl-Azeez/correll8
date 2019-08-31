@@ -3,10 +3,10 @@ const navLink = document.querySelector('nav');
 const Links = document.querySelectorAll('ul li');
 
 hamburger.addEventListener('click', () => {
-    navLink.classList.toggle('Navtoggle');
-    Links.forEach(link => {
-        link.classList.toggle('fade');
-    });
+  navLink.classList.toggle('Navtoggle');
+  Links.forEach(link => {
+    link.classList.toggle('fade');
+  });
 });
 
 //change class on scroll
@@ -84,17 +84,16 @@ $(window).on('load', function () {
   });
 });
 
-$(document).ready(function(){
-  $("a").on('click', function(event) {
+$(document).ready(function () {
+  $("a").on('click', function (event) {
+
     if (this.hash !== "") {
       event.preventDefault();
 
-      var hash = this.hash;
+      const elem = this; // save it so we can use it in the animate
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
+        scrollTop: $($(elem).attr('href')).offset().top
+      }, 1000);
     }
   });
 });

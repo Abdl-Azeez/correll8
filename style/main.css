@@ -83,7 +83,7 @@ nav .navbar-toggler:focus {
 }
 
 
-nav.active ul li {
+nav.Navtoggle ul li {
   display: block;
   opacity: 1;
 }
@@ -107,7 +107,7 @@ nav.active ul li {
   padding: 5px 25px;
 }
 
-.ul-class li .active:before {
+.ul-class li .Navtoggle:before {
   width: 100% !important;
 }
 
@@ -134,7 +134,7 @@ nav.active ul li {
   left: 42%;
 }
 
-.ul-class li a:active {
+.ul-class li a.Navtoggle {
   text-decoration: none;
 }
 
@@ -724,53 +724,52 @@ footer p a,
 
 	}
 
-	nav.active {
+	nav.Navtoggle {
 		height: 100%;
 	}
-  nav.active .hamburger {
+  nav.Navtoggle .hamburger {
     position: relative;
     right:0;
   }
 	
-	nav.active ul {
+	nav.Navtoggle ul {
     width: 100%;
     display: block !important;
-    margin-top: -30px;
 	}
 
-	nav.active ul li {
+	nav.Navtoggle ul li {
 		display: block;
 	}
 
-	nav.active ul li:nth-child(1) {
+	nav.Navtoggle ul li:nth-child(1) {
 		transition: all .3s ease-in;
 	}
 
-	nav.active ul li:nth-child(2) {
+	nav.Navtoggle ul li:nth-child(2) {
 		transition: all .5s ease-in;
 	}
 
-	nav.active ul li:nth-child(3) {
+	nav.Navtoggle ul li:nth-child(3) {
 		transition: all .7s ease-in;
 	}
 
-	nav.active ul li:nth-child(4) {
+	nav.Navtoggle ul li:nth-child(4) {
 		transition: all .9s ease-in;
 	}
 
-	nav.active ul li:nth-child(5) {
+	nav.Navtoggle ul li:nth-child(5) {
 		transition: all .11s ease-in;
 	}
 
-	nav.active ul li.fade {
+	nav.Navtoggle ul li.fade {
 		opacity: 1;
 		display: block;
   }
-  nav.active .line:nth-child(1) {
+  nav.Navtoggle .line:nth-child(1) {
 		width: 17px;
 	}
 
-	nav.active .line:nth-child(2) {
+	nav.Navtoggle .line:nth-child(2) {
 		width: 25px;
 	}
   .banner span {
@@ -814,7 +813,7 @@ footer p a,
 
 
 @media screen and (max-width: 768px) {
-  nav.active .hamburger {
+  nav.Navtoggle .hamburger {
     right: -13px;
   }
   .banner span {
@@ -913,10 +912,10 @@ footer p a,
 }
 
 @media screen and (max-width: 600px) {
-  nav.active ul {
+  nav.Navtoggle ul {
     margin-top: -10px;
   }
-  nav.active .hamburger {
+  nav.Navtoggle .hamburger {
     right: -25px;
   }
   .service-img {
@@ -939,7 +938,7 @@ footer p a,
 }
 
 @media screen and (max-width: 480px) {
-  nav.active .hamburger {
+  nav.Navtoggle .hamburger {
     right: -30px;
   }
   .nav-style {

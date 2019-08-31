@@ -3,7 +3,7 @@ const navLink = document.querySelector('nav');
 const Links = document.querySelectorAll('ul li');
 
 hamburger.addEventListener('click', () => {
-    navLink.classList.toggle('active');
+    navLink.classList.toggle('Navtoggle');
     Links.forEach(link => {
         link.classList.toggle('fade');
     });

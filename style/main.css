@@ -21,17 +21,28 @@ body {
   width: 10px;
 }
 
-::-webkit-scrollbar-thumb
+/* ::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 	background-image: -webkit-gradient(linear,
     40% 0%,
     75% 84%,
-    from(rgb(61, 107, 163)),
-    to(rgb(44, 106, 213)),
-    color-stop(.6,#1d46a4))
-}
+    from(rgb(125, 174, 234)),
+    to(#103da6),
+    color-stop(.6,rgb(57, 111, 205)))
+} */
 
+::-webkit-scrollbar-thumb {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: -webkit-gradient(linear, 
+      40% 0%, 
+      75% 84%,
+      from(rgb(7, 36, 78)),
+      to( rgb(57, 111, 205)),
+      color-stop(.6, rgb(16, 81, 162)))
+}
 
 
 
